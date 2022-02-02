@@ -1,0 +1,58 @@
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@700&display=swap');
+.lydec_tale{
+    border: 1px solid black;
+    border-collapse: collapse;
+    width: 90%;
+    margin: 0 auto;
+}
+.lydec_table tr,.lydec_table td{
+    border: 1px solid black;
+    border-collapse: collapse;
+    padding: 5px;
+}
+.lydec_table td span{
+    color: #ada8a8;
+}
+.detail_table{
+    width: 100%;
+    border: none;
+}
+.detail_table td{
+    border: none;
+}
+.detail_table th{
+    text-align: center;
+    font-weight: 500;
+}
+.detail_table td:last-child{
+    text-align: right;
+}
+h1{
+    text-align: center;
+}
+form{
+    margin-top: 50px;
+    text-align: center;
+}
+#nv{
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+#cal{
+    margin-left: 40px;
+    padding: 3px 101px 0px 11px;
+    margin-bottom: 10px;
+}
+ 
+.nav{
+    background-color: red;
+}
+body{
+    background-image: url("back.png");
+    background-position: center;
+    background-size: cover;
+    font-family: 'Oswald', sans-serif;
+}
+strong{
+    color: #FF0000;
+}
